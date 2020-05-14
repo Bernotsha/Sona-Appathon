@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:contentPadding="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="@color/light"
+            android:background="@color/dark"
+            android:padding="10dp"/>
+        <TextView
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/distance"
+            android:textColor="@color/light"
+            android:background="@color/dark"/>
+        <TextView
+            android:textSize="15dp"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/add"
+            android:textColor="@color/light"
+            android:background="@color/dark"/>
+        <TextView
+            android:textSize="15dp"
+            android:padding="10dp"
+            android:textColor="@color/light"
+            android:autoLink="phone"
+            android:background="@color/dark"
+            android:layout_width="match_parent"
+            android:textColorLink="@color/light"
+            android:layout_height="wrap_content"
+            android:id="@+id/phone"/>
+
+
+        <Button
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get directions"
+            android:textSize="18sp"
+            android:background="@color/darkpink"
+            android:textColor="@color/light"
+            android:id="@+id/directionbutton"/>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+</LinearLayout>
